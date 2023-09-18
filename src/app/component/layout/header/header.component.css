@@ -6,14 +6,9 @@ header
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 
-h4
+h3
 {
   margin: 0px;
-}
-
-.link
-{
-  width: 40%;
 }
 
 ul
@@ -31,8 +26,20 @@ li
   list-style: none;
 }
 
-.nav-link.active
+.menu
 {
-  font-weight: bold;
+  width: 60%;
 }
 
+.menu .links .nav-link
+{
+  padding: 10px 15px; /* Add padding to create space for the border */
+  border: 1px solid var(--black);
+  border-radius: 5px;
+}
+
+.menu .links .nav-link.active
+{
+  border: 1px solid #3B3B3B;
+  background-color: #121212;
+}
