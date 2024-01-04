@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;500;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;500;700&family=Roboto:wght@300;400;500;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;500;700&family=Pacifico&family=Roboto:wght@300;400;500;700;900&display=swap');
 
 :root
 {
@@ -28,7 +29,7 @@ body
 {
   background-color: var(--bg) !important;
   font-family: 'Roboto', Times, serif !important;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .btn-success
@@ -57,8 +58,8 @@ body
 .c-txt
 {
   border: 1px solid var(--dw) !important;
-  outline: none !important;
-  border-radius: 3px !important;
+  outline: 0px !important;
+  border-radius: 5px !important;
   height: 50px;
 }
 
@@ -67,3 +68,9 @@ body
   outline: #9c9c9c !important;
 }
 
+
+.c-txt:focus
+{
+  outline: 0px !important;
+  box-shadow: none !important ;
+}
